@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="JavaScript/main.js" defer></script>
+    <title>Form page</title>
+  </head>
+  <body>
+    <p>form recruitment</p>
+    <div class="card">
+      <form action="php/main.php" method="post">
+        <label for="FristName">frist name</label>
+        <input type="text" name="FristName" id="FristName" />
+        <label for="LastName">last name</label>
+        <input type="text" name="LastName" id="LastName" /> <br />
+        <label for="PhoneNumber">phonenumber</label>
+        <input type="number" name="PhoneNumber" id="PhoneNumber" />
+        <label for="Email">email</label>
+        <input type="email" name="Email" id="Email" /> <br />
+        <label for="Ability">Ability</label>
+        <input type="text" name="Ability" id="Ability" /> <br />
+        <input type="submit" value="send">
+        <input type="reset" value="reset">
+      </form>
+    </div>
+  </body>
+</html>
